@@ -24,6 +24,5 @@ node{
         withMaven(maven:'MyMaven'){
             sh 'mvn package'
         }
-    }
-   
+    }   
 }
